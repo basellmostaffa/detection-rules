@@ -59,6 +59,10 @@ OneDrive folder bypass the rule.
 
 ### Validation
 
+![Config](screenshots/rule-01-config.png)
+![Trigger](screenshots/rule-01-trigger.png)
+![Alert](screenshots/rule-01-alert.png)
+
 `notepad.exe` was copied to `Downloads` as `test.exe` and executed. 
 The alert fired within one rule interval.
 
@@ -109,6 +113,10 @@ This query wildcards the `CurrentVersion\Run` portion, which appears in
 both representations.
 
 ### Validation
+
+![Config](screenshots/rule-02-config.png)
+![Trigger](screenshots/rule-02-trigger.png)
+![Alert](screenshots/rule-02-alert.png)
 
 A Run value named `SecurityUpdate` was written from a non-elevated command 
 prompt, pointing to `%APPDATA%\Roaming\svchost.exe`. The alert fired within 
